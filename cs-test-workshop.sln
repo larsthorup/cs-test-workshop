@@ -5,7 +5,13 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationLib", "LocationLib\LocationLib.csproj", "{3FF13679-8DA2-47EC-9B6D-8034112ED2F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationLibTest", "LocationLibTest\LocationLibTest.csproj", "{7ACF262B-8898-48C0-AD0E-CB583F5A101E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationLibTestMs", "LocationLibTestMs\LocationLibTestMs.csproj", "{7ACF262B-8898-48C0-AD0E-CB583F5A101E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLibTestMsRhino", "EmailLibTestMsRhino\EmailLibTestMsRhino.csproj", "{D8A0AF1D-5283-4809-A477-565900E90C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{E62E6CE0-1442-4DB7-96E5-760EB9D8F33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLib", "EmailLib\EmailLib.csproj", "{B2C856EF-3794-409A-9B71-BD176EA63D76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,14 @@ Global
 		{7ACF262B-8898-48C0-AD0E-CB583F5A101E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ACF262B-8898-48C0-AD0E-CB583F5A101E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ACF262B-8898-48C0-AD0E-CB583F5A101E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A0AF1D-5283-4809-A477-565900E90C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A0AF1D-5283-4809-A477-565900E90C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A0AF1D-5283-4809-A477-565900E90C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A0AF1D-5283-4809-A477-565900E90C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C856EF-3794-409A-9B71-BD176EA63D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C856EF-3794-409A-9B71-BD176EA63D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C856EF-3794-409A-9B71-BD176EA63D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C856EF-3794-409A-9B71-BD176EA63D76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
