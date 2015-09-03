@@ -8,7 +8,7 @@ namespace EmailLib
 {
     public class EmailService : IEmailService
     {
-        public void SendEmail(Email email)
+        public bool SendEmail(Email email)
         {
             throw new NotImplementedException();
         }

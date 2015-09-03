@@ -8,6 +8,6 @@ namespace EmailLib
 {
     public interface IEmailService
     {
-        void SendEmail(Email email);
+        bool SendEmail(Email email);
     }
 }

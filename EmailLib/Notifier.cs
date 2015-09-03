@@ -18,7 +18,10 @@ namespace EmailLib
         public void Trigger(string message)
         {
             var email = new Email { Body = message };
-            emailService.SendEmail(email);
+            if (!emailService.SendEmail(email))
+            {
+                throw new ArgumentException("Failed to send email");
+            }
         }
     }
 }
