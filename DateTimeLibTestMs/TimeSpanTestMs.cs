@@ -18,5 +18,12 @@ namespace DateTimeLibTestMs
         {
             Assert.AreEqual("5 seconds ago", TimeSpan.FromSeconds(5).ToDisplayString());
         }
+
+        [TestMethod]
+        public void ToDisplayString_Minutes()
+        {
+            Assert.AreEqual("2 minutes ago", TimeSpan.FromMinutes(2).ToDisplayString());
+        }
+    
     }
 }

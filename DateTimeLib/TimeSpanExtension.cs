@@ -18,6 +18,10 @@ namespace DateTimeLib
             {
                 return string.Format("{0} seconds ago", timeSpan.Seconds.ToString());
             }
+            else if (timeSpan < TimeSpan.FromHours(1))
+            {
+                return string.Format("{0} minutes ago", timeSpan.Minutes.ToString());
+            }
             else
             {
                 throw new NotImplementedException();
