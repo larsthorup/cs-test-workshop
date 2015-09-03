@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmailLib;
 using NSubstitute;
 
-namespace EmailLibTestMsRhino
+namespace EmailLibTestMs
 {
     [TestClass]
     public class NotifierTest
