@@ -6,7 +6,7 @@ using UserServiceTestMs;
 namespace UserLibTestMs
 {
     [TestClass]
-    public class UserLibTest
+    public class UserLibTest_StubBuilder
     {
         [TestMethod]
         public void Deactivate()

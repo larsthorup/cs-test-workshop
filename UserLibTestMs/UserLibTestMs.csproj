@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NSubstitute">
+      <HintPath>..\Lib\NSubstitute\NSubstitute.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -52,7 +55,8 @@
   <ItemGroup>
     <Compile Include="ContextBuilder.cs" />
     <Compile Include="ContextStub.cs" />
-    <Compile Include="UserServiceTest.cs" />
+    <Compile Include="UserServiceTest_NSubstitute.cs" />
+    <Compile Include="UserServiceTest_StubBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
