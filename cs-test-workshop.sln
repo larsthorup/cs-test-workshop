@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationLibTestMs", "Locati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLibTestMsRhino", "EmailLibTestMsRhino\EmailLibTestMsRhino.csproj", "{D8A0AF1D-5283-4809-A477-565900E90C2B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{E62E6CE0-1442-4DB7-96E5-760EB9D8F33B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLib", "EmailLib\EmailLib.csproj", "{B2C856EF-3794-409A-9B71-BD176EA63D76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeLibTestMs", "DateTimeLibTestMs\DateTimeLibTestMs.csproj", "{F5C40773-7B2A-4CEC-AA2F-16A8CA4875B2}"

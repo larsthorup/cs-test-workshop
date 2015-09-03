@@ -17,7 +17,8 @@ namespace EmailLib
 
         public void Trigger(string message)
         {
-            throw new NotImplementedException();
+            var email = new Email { Body = message };
+            emailService.SendEmail(email);
         }
     }
 }
