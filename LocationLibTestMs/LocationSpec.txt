@@ -1,0 +1,23 @@
+﻿{ 
+    CountryCode = "US",
+    Country = "USA",
+    Region = "California", 
+    City = "San Francisco" 
+}
+=> "San Francisco, California"
+
+{ 
+    CountryCode = "DK", 
+    Country = "Denmark", 
+    Region = "Hovedstaden", 
+    City = "Farum" 
+}
+=> "Farum, Denmark"
+
+{ 
+    CountryCode = "PH", 
+    Country = "Philippines", 
+    Region = "", 
+    City = "" 
+}
+=> "Philippines"

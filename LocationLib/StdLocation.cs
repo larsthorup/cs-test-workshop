@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LocationLib
 {
-    public class Location
+    public class StdLocation
     {
         public string CountryCode { get; set; }
         public string Country { get; set; }

@@ -6,7 +6,7 @@ using NSubstitute;
 namespace UserLibTestMs
 {
     [TestClass]
-    public class UserLibTest_NSubstitute
+    public class UserServiceTest_NSubstitute
     {
         [TestMethod]
         public void Deactivate()
