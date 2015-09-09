@@ -19,6 +19,7 @@ namespace UserLibTestMs
             userService.Deactivate(47);
 
             Assert.IsFalse(userService.Get(47).IsActive);
+            context.Received().Save(lars);
         }
     }
 }

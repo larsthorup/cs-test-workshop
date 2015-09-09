@@ -15,7 +15,11 @@ namespace UserLibTestMs
             {
                 Users = new []
                 {
-                    new User { Name = "Lars", IsActive = true },
+                    new User 
+                    { 
+                        Name = "Lars", 
+                        IsActive = true 
+                    },
                 },
             }.Build();
             var lars = context.GetUser("Lars");
